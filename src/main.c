@@ -57,12 +57,15 @@ static void menu_draw_row_callback(GContext* ctx, const Layer *cell_layer, MenuI
     char title[10];
     char subtitle[20];
     unsigned int index = (unsigned int)cell_index->row*3;
-     APP_LOG(APP_LOG_LEVEL_ERROR, "%i",index);
     while (tuple) {
-       
+       //APP_LOG(APP_LOG_LEVEL_ERROR, "Index: %i,Key:%i",index,(int)tuple->key);
        if (tuple->key == index){
          //time
+          //workaround for strange values with key 0
+          if(strstr(tuple->value->cstring,":") != 0)
          snprintf(subtitle, sizeof(subtitle), "%s", tuple->value->cstring);
+          //if(strstr(tuple->value->cstring,":") != 0)
+        // APP_LOG(APP_LOG_LEVEL_ERROR, "sub: %s index:%i",tuple->value->cstring,index);
        }else if(tuple->key == index + 1){
          //ati
          //snprintf(subtitle, sizeof(subtitle), "Train: %s", new_tuple->value->cstring);

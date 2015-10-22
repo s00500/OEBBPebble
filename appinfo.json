@@ -1,5 +1,7 @@
 {
-    "appKeys": {},
+    "appKeys": {
+        "dummy": -1
+    },
     "capabilities": [
         ""
     ],

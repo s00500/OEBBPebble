@@ -12,7 +12,6 @@
     "sdkVersion": "3",
     "shortName": "OEBBFahrplan",
     "targetPlatforms": [
-        "aplite",
         "basalt"
     ],
     "uuid": "5175081a-13af-491e-8bb1-d7ae2b708552",

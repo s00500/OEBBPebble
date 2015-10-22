@@ -10,8 +10,20 @@ Pebble.addEventListener('ready',function(e) {
             console.log('Recieved response');
               var journeysObj;
               eval(req.responseText);
-            var dataDict = { 0:journeysObj.journey[0].ti,1:"haha",2:journeysObj.journey[0].pr};
-               Pebble.sendAppMessage(dataDict);
+            for(var i = 0; i < 12; i++){
+               var id1 = i*3;
+               var id2 = i*3 + 1;
+               var id3 = i*3 + 2;
+               
+          var dataDict = {};
+          dataDict[id1] = journeysObj.journey[id2].ti;
+          dataDict[id2] =   "false";
+          dataDict[id3] = journeysObj.journey[id3].pr;
+          //myArray.push(obj);
+            //var dataDict = { id1:journeysObj.journey[id2].ti, id2:"false", id3:journeysObj.journey[id3].pr};
+            Pebble.sendAppMessage(dataDict);
+               console.log(JSON.stringify(dataDict));
+            }
             //console.log(req.responseText);
             //console.log(journeysObj.journey[0].ti);
          } else {

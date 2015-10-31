@@ -1,0 +1,80 @@
+http://fahrplan.oebb.at/bin/stboard.exe/dn
+?L=vs_scotty.vs_liveticker
+&evaId=8100008
+&boardType=dep
+&time=13:40
+&productsFilter=1111111111111111
+&additionalTime=0
+&disableEquivs=yes
+&maxJourneys=50
+&outputMode=tickerDataOnly
+&start=yes
+&selectDate=today
+
+
+
+Example response:
+
+
+journeysObj = {
+"headTexts":["Zeit","Fahrt","Nach","Steig","Abfahrten","Aktuell","Ankunft"],
+"stationName":"St.P&#246;lten Hbf",
+"stationEvaId":"8100008",
+"boardType":"dep",
+"imgPath":"/img/",
+"iconProductsSubPath":"vs_oebb/",
+"rtInfo":true,
+"journey":[
+{"id":"350330810","ti":"22:19","da":"15.10.2015","pr":"EN 420","st":"D&#252;sseldorf Hbf","lastStop":"D&#252;sseldorf Hbf","ati":"09:12","tr":"5","trChg":false,"rt":false,"rta":false}
+,{"id":"388324812","ti":"22:30","da":"15.10.2015","pr":"IC 841","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"23:04","tr":"3","trChg":false,"rt":false,"rta":false}
+,{"id":"388395810","ti":"22:32","da":"15.10.2015","pr":"IC 820","st":"Linz/Donau Hbf","lastStop":"Linz/Donau Hbf","ati":"23:30","tr":"5","trChg":false,"rt":false,"rta":false}
+,{"id":"388505810","ti":"22:35","da":"15.10.2015","pr":"REX 1642","st":"Amstetten N&#214; Bahnhof","lastStop":"Amstetten N&#214; Bahnhof","ati":"23:31","tr":"4C-F","trChg":false,"rt":false,"rta":false}
+,{"id":"349897810","ti":"22:42","da":"15.10.2015","pr":"ICE 229","st":"Wien Hbf","lastStop":"Wien Hbf","ati":"23:12","tr":"3","trChg":false,"rt":{"status":null,"dlm":"10","dlt":"22:52"},"rta":false}
+,{"id":"388228810","ti":"22:54","da":"15.10.2015","pr":"ICE 324","st":"Linz/Donau Hbf","lastStop":"Linz/Donau Hbf","ati":"23:45","tr":"5","trChg":false,"rt":false,"rta":false}
+,{"id":"388339810","ti":"23:05","da":"15.10.2015","pr":"RJ 663","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"23:30","tr":"3","trChg":false,"rt":{"status":null,"dlm":"4","dlt":"23:09"},"rta":false}
+,{"id":"388508810","ti":"23:08","da":"15.10.2015","pr":"R 1649","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"00:26","tr":"2D-F","trChg":false,"rt":false,"rta":false}
+,{"id":"388220810","ti":"23:29","da":"15.10.2015","pr":"EN 246","st":"Bregenz Bahnhof","lastStop":"Bregenz Bahnhof","ati":"08:23","tr":"5","trChg":false,"rt":false,"rta":false}
+,{"id":"350166810","ti":"00:05","da":"16.10.2015","pr":"RJ 361","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"00:30","tr":"3","trChg":false,"rt":{"status":null,"dlm":"4","dlt":"00:09"},"rta":false}
+,{"id":"350376810","ti":"00:11","da":"16.10.2015","pr":"EN 462","st":"M&#252;nchen Hbf","lastStop":"M&#252;nchen Hbf","ati":"06:10","tr":"5","trChg":false,"rt":false,"rta":false}
+,{"id":"361260810","ti":"00:11","da":"16.10.2015","pr":"EN 60466","st":"Z&#252;rich HB","lastStop":"Z&#252;rich HB","ati":"08:20","tr":"","trChg":false,"rt":false,"rta":false}
+,{"id":"388506810","ti":"00:58","da":"16.10.2015","pr":"REX 1646","st":"Amstetten N&#214; Bahnhof","lastStop":"Amstetten N&#214; Bahnhof","ati":"01:50","tr":"4CF","trChg":false,"rt":false,"rta":false}
+,{"id":"391119810","ti":"03:47","da":"16.10.2015","pr":"R 6091","st":"Tulln/Donau Bahnhof","lastStop":"Tulln/Donau Bahnhof","ati":"04:37","tr":"6AB","trChg":false,"rt":false,"rta":false}
+,{"id":"391121810","ti":"04:08","da":"16.10.2015","pr":"R 6093","st":"Tulln/Donau Bahnhof","lastStop":"Tulln/Donau Bahnhof","ati":"05:06","tr":"2A-C","trChg":false,"rt":false,"rta":false}
+,{"id":"391341810","ti":"04:13","da":"16.10.2015","pr":"R 6700","st":"Schrambach Bahnhof","lastStop":"Schrambach Bahnhof","ati":"04:59","tr":"2DF","trChg":false,"rt":false,"rta":false}
+,{"id":"491916810","ti":"04:19","da":"16.10.2015","pr":"R 2048","st":"Scheibbs Bahnhof","lastStop":"Scheibbs Bahnhof","ati":"05:59","tr":"4CF","trChg":false,"rt":false,"rta":false}
+,{"id":"391062810","ti":"04:24","da":"16.10.2015","pr":"R 6001","st":"Krems/Donau Bahnhof","lastStop":"Krems/Donau Bahnhof","ati":"05:08","tr":"5","trChg":false,"rt":false,"rta":false}
+,{"id":"388678810","ti":"04:32","da":"16.10.2015","pr":"R 2050","st":"Linz/Donau Hbf","lastStop":"Linz/Donau Hbf","ati":"06:35","tr":"6C-D","trChg":false,"rt":false,"rta":false}
+,{"id":"388647810","ti":"04:37","da":"16.10.2015","pr":"R 2001","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"05:44","tr":"3","trChg":false,"rt":false,"rta":false}
+,{"id":"388628810","ti":"04:47","da":"16.10.2015","pr":"REX 1941","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"05:20","tr":"3","trChg":false,"rt":false,"rta":false}
+,{"id":"388478810","ti":"04:50","da":"16.10.2015","pr":"REX 1603","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"05:48","tr":"2A-C","trChg":false,"rt":false,"rta":false}
+,{"id":"391308810","ti":"04:57","da":"16.10.2015","pr":"R 6600","st":"Hainfeld N&#214; Bahnhof","lastStop":"Hainfeld N&#214; Bahnhof","ati":"05:45","tr":"11","trChg":false,"rt":false,"rta":false}
+,{"id":"388649810","ti":"05:07","da":"16.10.2015","pr":"R 2003","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"06:14","tr":"1CD","trChg":false,"rt":false,"rta":false}
+,{"id":"389513810","ti":"05:17","da":"16.10.2015","pr":"R 3292","st":"Kleinreifling Bahnhof","lastStop":"Kleinreifling Bahnhof","ati":"07:37","tr":"4CF","trChg":false,"rt":false,"rta":false}
+,{"id":"391123810","ti":"05:18","da":"16.10.2015","pr":"R 6095","st":"Wien Franz-Josefs-Bahnhof","lastStop":"Wien Franz-Josefs-Bahnhof","ati":"07:00","tr":"6CD","trChg":false,"rt":false,"rta":false}
+,{"id":"388630810","ti":"05:26","da":"16.10.2015","pr":"REX 1943","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"06:00","tr":"3","trChg":false,"rt":false,"rta":false}
+,{"id":"388479810","ti":"05:29","da":"16.10.2015","pr":"REX 1605","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"06:18","tr":"2AC","trChg":false,"rt":false,"rta":false}
+,{"id":"388651810","ti":"05:37","da":"16.10.2015","pr":"R 2005","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"06:44","tr":"2DF","trChg":false,"rt":false,"rta":false}
+,{"id":"361263810","ti":"05:46","da":"16.10.2015","pr":"EN 60467","st":"Budapest-Keleti","lastStop":"Budapest-Keleti","ati":"09:05","tr":"3","trChg":false,"rt":false,"rta":false}
+,{"id":"364341810","ti":"05:46","da":"16.10.2015","pr":"EN 463","st":"Budapest-Keleti","lastStop":"Budapest-Keleti","ati":"09:05","tr":"3","trChg":false,"rt":false,"rta":false}
+,{"id":"388631810","ti":"05:54","da":"16.10.2015","pr":"REX 1945","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"06:30","tr":"3","trChg":false,"rt":false,"rta":false}
+,{"id":"391879810","ti":"05:54","da":"16.10.2015","pr":"S 40","st":"Wien Franz-Josefs-Bahnhof","lastStop":"Wien Franz-Josefs-Bahnhof","ati":"07:53","tr":"6AB","trChg":false,"rt":false,"rta":false}
+,{"id":"350170810","ti":"05:56","da":"16.10.2015","pr":"RJ 362","st":"Z&#252;rich HB","lastStop":"Z&#252;rich HB","ati":"13:20","tr":"5","trChg":false,"rt":false,"rta":false}
+,{"id":"388480810","ti":"05:57","da":"16.10.2015","pr":"REX 1607","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"06:52","tr":"7AB","trChg":false,"rt":false,"rta":false}
+,{"id":"388680810","ti":"05:59","da":"16.10.2015","pr":"R 2052","st":"St.Valentin Bahnhof","lastStop":"St.Valentin Bahnhof","ati":"07:39","tr":"4CF","trChg":false,"rt":false,"rta":false}
+,{"id":"391311810","ti":"06:03","da":"16.10.2015","pr":"R 6602","st":"Hainfeld N&#214; Bahnhof","lastStop":"Hainfeld N&#214; Bahnhof","ati":"06:58","tr":"1CD","trChg":false,"rt":false,"rta":false}
+,{"id":"388653810","ti":"06:04","da":"16.10.2015","pr":"R 2009","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"07:16","tr":"4AB","trChg":false,"rt":false,"rta":false}
+,{"id":"391064810","ti":"06:04","da":"16.10.2015","pr":"REX 6007","st":"Krems/Donau Bahnhof","lastStop":"Krems/Donau Bahnhof","ati":"06:40","tr":"7CD","trChg":false,"rt":false,"rta":false}
+,{"id":"488126810","ti":"06:06","da":"16.10.2015","pr":"WB 900","st":"Salzburg Hbf","lastStop":"Salzburg Hbf","ati":"08:08","tr":"5","trChg":false,"rt":false,"rta":false}
+,{"id":"391884810","ti":"06:13","da":"16.10.2015","pr":"S 40","st":"Wien Franz-Josefs-Bahnhof","lastStop":"Wien Franz-Josefs-Bahnhof","ati":"08:25","tr":"7AB","trChg":false,"rt":false,"rta":false}
+,{"id":"388632810","ti":"06:21","da":"16.10.2015","pr":"REX 1947","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"06:56","tr":"3","trChg":false,"rt":false,"rta":false}
+,{"id":"388223810","ti":"06:25","da":"16.10.2015","pr":"EN 247","st":"Wien Hbf (Autoreisezuganlage)","lastStop":"Wien Hbf (Autoreisezuganlage)","ati":"07:17","tr":"2","trChg":false,"rt":false,"rta":false}
+,{"id":"388396810","ti":"06:30","da":"16.10.2015","pr":"IC 821","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"07:04","tr":"3","trChg":false,"rt":false,"rta":false}
+,{"id":"388261810","ti":"06:32","da":"16.10.2015","pr":"IC 540","st":"Salzburg Hbf","lastStop":"Salzburg Hbf","ati":"08:48","tr":"5","trChg":false,"rt":false,"rta":false}
+,{"id":"388483810","ti":"06:33","da":"16.10.2015","pr":"REX 1613","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"07:30","tr":"6AB","trChg":false,"rt":false,"rta":false}
+,{"id":"391069810","ti":"06:35","da":"16.10.2015","pr":"R 6011","st":"Krems/Donau Bahnhof","lastStop":"Krems/Donau Bahnhof","ati":"07:20","tr":"7CD","trChg":false,"rt":false,"rta":false}
+,{"id":"392925810","ti":"06:36","da":"16.10.2015","pr":"R 6803","st":"Mariazell Bahnhof","lastStop":"Mariazell Bahnhof","ati":"08:52","tr":"13","trChg":false,"rt":false,"rta":false}
+,{"id":"488135810","ti":"06:40","da":"16.10.2015","pr":"WB 935","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"07:08","tr":"3","trChg":false,"rt":false,"rta":false}
+,{"id":"491919810","ti":"06:46","da":"16.10.2015","pr":"R 2011","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"08:00","tr":"6CD","trChg":false,"rt":false,"rta":false}
+],
+"maxJ":49
+}
